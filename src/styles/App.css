@@ -17,3 +17,11 @@ body {
 section {
   padding: 6rem 0;
 }
+
+header {
+  @apply bg-white;
+
+  &.sticky {
+    @apply fixed left-0 top-0 z-30 w-full py-2 shadow-lg transition-all duration-300 ease-in-out;
+  }
+}

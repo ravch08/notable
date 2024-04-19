@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { string, z } from "zod";
 
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { NoteContext } from "../../App";
 import { logo } from "../utils/helper";
 
@@ -16,6 +16,8 @@ const searchSchema = z.object({
 export type SearchProps = z.infer<typeof searchSchema>;
 
 const Header = () => {
+  const [isSticky, setIsSticky] = useState("");
+
   const {
     register,
     reset,
@@ -30,8 +32,20 @@ const Header = () => {
     reset();
   };
 
+  const stickyHandler = () => {
+    const stickyClass = window.scrollY > 120 ? "sticky" : "";
+    setIsSticky(stickyClass);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickyHandler);
+    return () => window.removeEventListener("scroll", stickyHandler);
+  }, []);
+
+  const sticker = `${isSticky} bg-white`;
+
   return (
-    <header className="bg-white">
+    <header className={sticker}>
       <div className="container mx-auto">
         <div className="flex flex-row items-center justify-between py-4">
           <Link to="/">

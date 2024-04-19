@@ -62,10 +62,17 @@
       "id": "9"
     },
     {
-      "title": "JSX or Html",
+      "title": "JSX or HTML",
       "imgSrc": "https://img-c.udemycdn.com/course/750x422/986406_89c5_3.jpg",
       "body": "In React versions prior to 17.0, JSX was transformed into React.createElement() function calls by the JSX transformer at compile-time. This required importing React for the React elements to work. With the introduction of a new JSX transform in React v17.0, special functions from the React package’s new entry points are automatically imported, eliminating the need to import React in every file that uses JSX explicitly.",
       "id": "bd86"
+    },
+    {
+      "id": "4141",
+      "date": "2024-04-09",
+      "imgSrc": "https://miro.medium.com/v2/resize:fit:1000/1*v3XndYeIsBtk4CkpMf7vmA.jpeg",
+      "title": "NextJS - The new React Framework",
+      "body": "The Next.js frontend framework has been around for only a couple of years, but it is already one of the most popular tools in the React ecosystem.\n\nNext.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart-bundling, route prefetching, and more. No requirement for any configuration.\n\nNext.js can help us improve the performance, UX, and SEO of the web app.\n\nNext.js takes inspiration from React, web-pack, and babel. It is a tool for creating web applications and is famous for server-side rendering.\n\nDevelopers with basic knowledge of HTML, CSS, JavaScript, and React can quickly learn and switch to Next.js."
     }
   ]
 }
