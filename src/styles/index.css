@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-label {
+  @apply ml-2;
+}
+
+.form-control {
+  @apply w-full text-left;
+}
+
+.form-control-half {
+  @apply w-[50%] text-left;
+}

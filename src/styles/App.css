@@ -1,0 +1,19 @@
+body {
+  background-color: hsl(48, 100%, 96%);
+
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: gainsboro;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: goldenrod;
+  }
+}
+
+section {
+  padding: 6rem 0;
+}

@@ -1,0 +1,71 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "date": "2024-09-25",
+      "title": "How to learn Angular 16",
+      "imgSrc": "https://www.mindinventory.com/blog/wp-content/uploads/2022/10/angular-13.png",
+      "body": "Six months ago, we reached a significant milestone in Angular’s simplicity and developer experience by graduating the standalone APIs from developer preview. Today, we’re thrilled to share that we’re continuing the Angular Momentum with the biggest release since the initial rollout of Angular; making large leaps in reactivity, server-side rendering, and tooling. All this comes with dozens of quality-of-life improvements across feature requests, with over 2,500 combined thumbs up on GitHub!"
+    },
+    {
+      "id": "2",
+      "date": "2024-09-24",
+      "title": "How to learn React JS",
+      "imgSrc": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5923684/og_image/optimized/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
+      "body": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
+    },
+    {
+      "id": "3",
+      "date": "2024-09-20",
+      "title": "Learning Vue JS",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEt1rX9LwNRUXKZaU_Zv10AVa0jYh-Vv2GREY8UiByZg&s",
+      "body": "Vue Js is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects."
+    },
+    {
+      "id": "4",
+      "date": "2024-09-10",
+      "title": "Node Js for beginners",
+      "imgSrc": "https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2021/03/nodejs-reference-architecture_2x.png?itok=foFxRy8O",
+      "body": "Node Js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world."
+    },
+    {
+      "id": "5",
+      "date": "2024-09-25",
+      "title": "Whats new in Angular 17",
+      "imgSrc": "https://www.mindinventory.com/blog/wp-content/uploads/2022/10/angular-13.png",
+      "body": "Angular 8 is the latest version of Angular. It is a major release that spans the entire platform, including the framework, Angular Material, and the CLI. This release improves application startup time on modern browsers, provides new APIs for tapping into the CLI, and aligns Angular to the ecosystem and more web standards."
+    },
+    {
+      "id": "6",
+      "date": "2024-09-24",
+      "title": "What new in ReactJS 19",
+      "imgSrc": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5923684/og_image/optimized/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
+      "body": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
+    },
+    {
+      "id": "7",
+      "date": "2024-09-20",
+      "title": "Vue vs React",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEt1rX9LwNRUXKZaU_Zv10AVa0jYh-Vv2GREY8UiByZg&s",
+      "body": "Vue Js is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects."
+    },
+    {
+      "title": "NodeJS",
+      "imgSrc": "https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2021/03/nodejs-reference-architecture_2x.png?itok=foFxRy8O",
+      "body": "Node Js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.",
+      "id": "8"
+    },
+    {
+      "title": "Should you learn Typescript?",
+      "imgSrc": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5923684/og_image/optimized/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
+      "body": "Typescript is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.",
+      "id": "9"
+    },
+    {
+      "title": "JSX or Html",
+      "imgSrc": "https://img-c.udemycdn.com/course/750x422/986406_89c5_3.jpg",
+      "body": "In React versions prior to 17.0, JSX was transformed into React.createElement() function calls by the JSX transformer at compile-time. This required importing React for the React elements to work. With the introduction of a new JSX transform in React v17.0, special functions from the React package’s new entry points are automatically imported, eliminating the need to import React in every file that uses JSX explicitly.",
+      "id": "bd86"
+    }
+  ]
+}
