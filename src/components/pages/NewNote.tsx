@@ -1,7 +1,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { v4 as uuid } from "uuid";
 
 import { NoteContext, NotesProps, notesSchema } from "../../App";
@@ -16,11 +16,13 @@ const NewNote = () => {
   } = useForm<NotesProps>({ resolver: zodResolver(notesSchema) });
 
   const { setNotes } = useContext(NoteContext);
+  const navigate = useNavigate();
 
   const handleNewNote = (data: NotesProps) => {
     postNote(data);
     setNotes((prev) => [...prev, { ...data, id: uuid() }]);
     reset();
+    navigate("/");
   };
 
   return (
@@ -77,7 +79,7 @@ const NewNote = () => {
               Body
             </label>
             <textarea
-              rows={12}
+              rows={6}
               id="body"
               {...register("body")}
               placeholder="Enter your content here...."

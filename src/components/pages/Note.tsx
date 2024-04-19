@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
+
 import { NoteContext } from "../../App";
 
 const Note = () => {
@@ -10,7 +11,7 @@ const Note = () => {
 
   return (
     <main>
-      <div className="container mx-auto mb-24">
+      <div className="container mx-auto mb-52">
         <Link to="/" className="my-12 flex items-center gap-2 px-4 underline">
           <svg
             fill="currentColor"

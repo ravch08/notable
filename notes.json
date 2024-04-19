@@ -31,41 +31,23 @@
     {
       "id": "5",
       "date": "2024-09-25",
-      "title": "Whats new in Angular 17",
+      "title": "What's new in Angular 17",
       "imgSrc": "https://www.mindinventory.com/blog/wp-content/uploads/2022/10/angular-13.png",
       "body": "Angular 8 is the latest version of Angular. It is a major release that spans the entire platform, including the framework, Angular Material, and the CLI. This release improves application startup time on modern browsers, provides new APIs for tapping into the CLI, and aligns Angular to the ecosystem and more web standards."
     },
     {
       "id": "6",
       "date": "2024-09-24",
-      "title": "What new in ReactJS 19",
+      "title": "What new in React JS 19?",
       "imgSrc": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5923684/og_image/optimized/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
       "body": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
     },
     {
       "id": "7",
       "date": "2024-09-20",
-      "title": "Vue vs React",
+      "title": "Vue vs React ?",
       "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEt1rX9LwNRUXKZaU_Zv10AVa0jYh-Vv2GREY8UiByZg&s",
       "body": "Vue Js is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects."
-    },
-    {
-      "title": "NodeJS",
-      "imgSrc": "https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2021/03/nodejs-reference-architecture_2x.png?itok=foFxRy8O",
-      "body": "Node Js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.",
-      "id": "8"
-    },
-    {
-      "title": "Should you learn Typescript?",
-      "imgSrc": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5923684/og_image/optimized/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
-      "body": "Typescript is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.",
-      "id": "9"
-    },
-    {
-      "title": "JSX or HTML",
-      "imgSrc": "https://img-c.udemycdn.com/course/750x422/986406_89c5_3.jpg",
-      "body": "In React versions prior to 17.0, JSX was transformed into React.createElement() function calls by the JSX transformer at compile-time. This required importing React for the React elements to work. With the introduction of a new JSX transform in React v17.0, special functions from the React package’s new entry points are automatically imported, eliminating the need to import React in every file that uses JSX explicitly.",
-      "id": "bd86"
     },
     {
       "id": "4141",
@@ -73,6 +55,13 @@
       "imgSrc": "https://miro.medium.com/v2/resize:fit:1000/1*v3XndYeIsBtk4CkpMf7vmA.jpeg",
       "title": "NextJS - The new React Framework",
       "body": "The Next.js frontend framework has been around for only a couple of years, but it is already one of the most popular tools in the React ecosystem.\n\nNext.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart-bundling, route prefetching, and more. No requirement for any configuration.\n\nNext.js can help us improve the performance, UX, and SEO of the web app.\n\nNext.js takes inspiration from React, web-pack, and babel. It is a tool for creating web applications and is famous for server-side rendering.\n\nDevelopers with basic knowledge of HTML, CSS, JavaScript, and React can quickly learn and switch to Next.js."
+    },
+    {
+      "id": "ac13",
+      "date": "2024-04-15",
+      "imgSrc": "https://miro.medium.com/v2/resize:fit:1000/1*v3XndYeIsBtk4CkpMf7vmA.jpeg",
+      "title": "React Typescript ",
+      "body": "RTK Query solves the exact same use case and is designed to work great as part of Redux apps. RTK Query should be on your radar when you are considering adding a server layer to your application.\n\nThe choice actually depends on your goals. If you want to decrease the usage of Redux as a store or even remove Redux from your codebase by using a different data management tool (like Zustand, for example), then react-query will be the best option. If you plan to stick with Redux long-term, then you should probably consider using RTK since it’s a part of Redux Toolkit and it utilizes the Redux store object as a datastore for the data returned from the server."
     }
   ]
 }

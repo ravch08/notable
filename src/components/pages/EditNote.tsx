@@ -1,8 +1,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-
 import { useContext } from "react";
+import { useForm } from "react-hook-form";
 import { Link, useNavigate, useParams } from "react-router-dom";
+
 import { NoteContext, NotesProps, notesSchema } from "../../App";
 import { editNote } from "../services/api";
 
@@ -24,8 +24,9 @@ const EditNote = () => {
   const handleEditNote = (data: NotesProps) => {
     console.log(data);
     editNote(data, id!);
-    navigate("/");
     reset();
+    navigate("/");
+    location.reload();
   };
 
   return (

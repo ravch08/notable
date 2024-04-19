@@ -33,7 +33,7 @@ export async function postNote(data: NotesProps) {
 export async function editNote(data: NotesProps, id: string) {
   try {
     const response = await fetch(`http://localhost:3000/notes/${id}`, {
-      method: "PUT",
+      method: "PATCH",
       headers: {
         "Content-Type": "application/json",
       },
@@ -50,18 +50,13 @@ export async function editNote(data: NotesProps, id: string) {
   }
 }
 
-export async function deleteNote(data: NotesProps, id: string) {
+export async function deleteNote(id: string) {
   try {
     const response = await fetch(`http://localhost:3000/notes/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        title: data?.title,
-        imgSrc: data?.imgSrc,
-        body: data?.body,
-      }),
     });
     return response.json();
   } catch (error) {
